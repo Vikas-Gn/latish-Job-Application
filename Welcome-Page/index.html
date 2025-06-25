@@ -1039,7 +1039,7 @@
 
         async function fetchApplication(refNo, name, email) {
             try {
-                const response = await fetch(`http://13.235.80.1:3002/api/applications/${refNo}`);
+                const response = await fetch(`http://65.2.149.3:3049/api/applications/${refNo}`);
                 if (!response.ok) {
                     throw new Error('Application not found');
                 }
